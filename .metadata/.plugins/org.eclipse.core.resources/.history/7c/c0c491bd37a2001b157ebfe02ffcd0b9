@@ -1,0 +1,58 @@
+package br.com.portoseguro.model;
+
+import java.util.Date;
+
+public class Funcionario {
+
+	private String nome;
+	private Date dataNascimento;
+	private String cargo;
+	private double salario;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Date getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(Date dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public double getSalarioLiquido() {
+		if (this.salario <= 1903.98) {
+			return this.salario;
+		} else if (this.salario >= 1903.99 && this.salario <= 2826.65) {
+
+		} else if (this.salario >= 2826.66 && this.salario <= 3751.05) {
+
+		} else if (this.salario >= 3751.06 && this.salario <= 4664.68) {
+
+		} else if (this.salario >= 4664.69) {
+
+		}
+		return 0;
+	}
+}
