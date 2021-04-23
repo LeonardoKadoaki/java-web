@@ -1,8 +1,10 @@
 INDEX VERSION 1.131
-D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1131566995.index
-\Projeto01_Conceitoss\src
 D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2165408785.index
 \Projeto01_Conceitoss\src
+D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1131566995.index
+\Projeto01_Conceitoss\src
+D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2140557144.index
+\Projeto02_Exercicio01\src
 D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1840485.index
 \Projeto01_Conceitoss\src
 D:\Curso_Java_Avancado\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3537515648.index

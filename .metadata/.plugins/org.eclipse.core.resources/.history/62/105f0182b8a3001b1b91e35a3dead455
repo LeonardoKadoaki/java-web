@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resultado OK</title>
+</head>
+<body>
+	<h1>${funcionario.getNome()}</h1>
+	<h1>${funcionario.getDataNascimento()}</h1>
+	<h1>${funcionario.getCargo()}</h1>
+	<h1>${funcionario.getSalario()}</h1>
+	<h1>${funcionario.getIrpf()}</h1>
+	<h1>${funcionario.getSalarioLiquido()}</h1>
+</body>
+</html>

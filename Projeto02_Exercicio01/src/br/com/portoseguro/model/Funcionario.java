@@ -10,7 +10,19 @@ public class Funcionario {
 	private double salario;
 	private double irpf;
 	private double salarioLiquido;
-	
+
+	public Funcionario() {
+		super();
+	}
+
+	public Funcionario(String nome, Date dataNascimento, String cargo, double salario) {
+		super();
+		this.setNome(nome);
+		this.setDataNascimento(dataNascimento);
+		this.setCargo(cargo);
+		this.setSalario(salario);
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -48,22 +60,22 @@ public class Funcionario {
 	public double getIrpf() {
 		return this.irpf;
 	}
-	
+
 	private double calcularIrpf(double salario) {
-		double[] taxas = {0, 7.5, 15, 22.5, 27.5};
-		double[] valores = {0, 1903.98, 2826.65, 3751.05, 4664.68};
-		
+		double[] taxas = { 0, 7.5, 15, 22.5, 27.5 };
+		double[] valores = { 0, 1903.98, 2826.65, 3751.05, 4664.68 };
+
 		double imposto = 0;
-		
+
 		for (int i = taxas.length - 1; i >= 0; i--) {
 			if (salario > valores[i]) {
-				imposto = imposto + (salario - valores[i]) * taxas[i]/100;
+				imposto = imposto + (salario - valores[i]) * taxas[i] / 100;
 				salario = valores[i];
 			}
 		}
 		return imposto;
 	}
-	
+
 	public double getSalarioLiquido() {
 		return this.salarioLiquido;
 	}
